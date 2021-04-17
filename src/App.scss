@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+$mobile: 576px;
+$tablet: 768px;
+$laptop: 992px;
+$widescreen: 1200px;
+$pink: tomato;
+
+.flex-row {
+  display: flex;
+  align-items: center;
+}
+
+.icons {
+  color: $pink;
+  height: 50px !important;
+  margin-right: 10px;
+}
+
+.icon {
+  color: $pink;
+}
+
+h5 {
+  color: $pink;
+  padding: 0 20px;
+  font-size: 50px;
+}

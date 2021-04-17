@@ -1,0 +1,109 @@
+@import "../App.scss";
+
+.card {
+  width: calc(100% - 20px);
+  background-color: lightcoral;
+  border-radius: 10px;
+  height: 220px;
+  margin: 0 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 1px 3px 4px -1px rgba(0, 0, 0, 0.72);
+  -webkit-box-shadow: 1px 3px 4px -1px rgba(0, 0, 0, 0.72);
+  -moz-box-shadow: 1px 3px 4px -1px rgba(0, 0, 0, 0.72);
+
+  .divider {
+    height: 90%;
+    border-left: 1px solid #fff;
+  }
+
+  .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+  }
+
+  .title {
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .balance {
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+  }
+}
+
+.grey-row {
+  width: 98%;
+  margin: 0 auto;
+  background: lightgrey;
+  min-height: 30px;
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  padding: 10px;
+}
+
+.currency {
+  color: blue;
+}
+
+form {
+  width: 98%;
+  margin: 15px auto;
+
+  select {
+    width: 30%;
+    background-color: gray;
+  }
+  input {
+    width: 70%;
+  }
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+
+  .btn {
+    padding: 15px 35px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: lightblue;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+  }
+}
+
+.recent {
+  color: #fff;
+}
+
+.activity {
+  display: flex;
+  justify-content: space-between;
+  width: 98%;
+  margin: 0 auto;
+  border-bottom: 1px solid lightgray;
+  padding: 10px 20px;
+
+  .activity-image {
+    flex: 1 0 20%;
+  }
+  .activity-details {
+    flex: 1 0 70%;
+  }
+
+  .activity-price {
+    flex: 1;
+  }
+}
